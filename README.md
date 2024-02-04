@@ -34,47 +34,6 @@ The game unfolds until a player reaches or exceeds position 100. The moment of v
 
 ## Example Gameplay 🚀
 
-
-Certainly! Here's the text with proper indentation for GitHub markdown:
-
-markdown
-Copy code
-# 🐍🎲 Snake and Ladder Game 🎲🐍
-
-Welcome to this exciting console-based Snake and Ladder game in C! Experience the thrill of rolling the dice, navigating through the board, and conquering challenges with snakes and ladders.
-
-## Instructions 📜
-
-1. Compile the code using a C compiler (e.g., `gcc snake_and_ladder.c -o snake_and_ladder`).
-2. Run the executable (e.g., `./snake_and_ladder`) to embark on your gaming adventure.
-3. Follow on-screen instructions to roll the dice and explore the dynamic game board.
-
-## Code Overview 🖥️
-
-- **printBoard**: Function to display the game board with the current player position.
-- **rollDice**: Function to generate a random number between a specified range to simulate dice rolling.
-- **movePlayer**: Function to handle player movement based on snakes and ladders on the board.
-- **main**: The main game loop that initializes the board, snakes, and ladders. Players roll the dice and move according to the rules until reaching or exceeding the final position (100).
-
-## Game Components 🎮
-
-### 🎨 Board
-The game board is a visual feast represented as an array with positions from 1 to 100.
-
-### 🐍 Snakes
-Encounter four slippery snakes! Land on their head, and they'll swiftly slide you down to their tails.
-
-### 🪜 Ladders
-Discover four ladders! Ascend to their top, and you'll leap forward to a higher position.
-
-### 🎲 Player Movement
-Roll the dice (values 1 to 6) and witness your avatar's journey across the vibrant board. The `movePlayer` function ensures a thrilling experience with snakes and ladders.
-
-### 🏆 Winning
-The game unfolds until a player reaches or exceeds position 100. The moment of victory is celebrated with a hearty congratulations.
-
-## Example Gameplay 🚀
-
 Save to grepper
 🎲 Current Board:
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
